@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-@Component
+//@Component
 public class DataSourceFile implements DataSource {
 
     private String filename;

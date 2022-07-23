@@ -11,12 +11,12 @@ import java.util.Scanner;
    A text-based simulation of an automatic teller machine.
  */
 
-@Component
+//@Component
 public class AtmUI {
 
 	private ATM atm;
 
-	@Autowired
+	//@Autowired
 	public AtmUI(ATM atm) {
 		this.atm = atm;
 	}

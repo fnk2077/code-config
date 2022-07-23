@@ -12,11 +12,11 @@ public class Main {
 //        ATM atm = new ATM(bank);
 //        AtmUI atmUI = new AtmUI(atm);
 
-//        ApplicationContext context =
-//                new AnnotationConfigApplicationContext(ATMConfig.class);
-
         ApplicationContext context =
-                new ClassPathXmlApplicationContext("bean.xml");
+                new AnnotationConfigApplicationContext(ATMConfig.class);
+
+//        ApplicationContext context =
+//                new ClassPathXmlApplicationContext("bean.xml");
 
         AtmUI atmUI = context.getBean(AtmUI.class);
         atmUI.run();

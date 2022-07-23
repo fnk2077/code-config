@@ -6,8 +6,8 @@ import org.springframework.stereotype.Component;
 import java.util.HashMap;
 import java.util.Map;
 
-@Component
-@Primary
+//@Component
+//@Primary
 public class DataSourceDB implements DataSource {
 
     /**
